@@ -10,7 +10,7 @@ const camera = new THREE.PerspectiveCamera(
   0.1,
   1000
 );
-camera.position.z = 5; // this i added
+
 
 const renderer = new THREE.WebGLRenderer({
   canvas: document.querySelector("#bg"),
